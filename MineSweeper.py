@@ -1,8 +1,7 @@
 count=0
 for k in range(10):
-   
-    m=int(input("Enter the number of rows :"))
-    n=int(input("Enter the number of colums  :"))
+   #Enter number of rows and column seperated by space
+    m,n = map(int,input().split())
     if m==0 and n==0:
         break
     print("Enter the elements of the matrix in the form of '*' and '-' :")
