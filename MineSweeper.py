@@ -4,8 +4,8 @@ for k in range(10):
     m,n = map(int,input().split())
     if m==0 and n==0:
         break
-    print("Enter the elements of the matrix in the form of '*' and '-' :")
-    a = [[str(input()) for i in range (n)] for y in range(m)] 
+    #Enter the elements of the matrix in the form of '*' and '-' in the order M*N
+    a = [(input().split())for y in range(m)] 
        
     for i in range(m):
         for j in range(n):
